@@ -5,7 +5,9 @@ import java.awt.*;
 
 public class Screen extends JTextField {
     public Screen() {
-        this.setFont(new Font("Arial", Font.BOLD, 48));
-        this.setHorizontalAlignment(JTextField.HORIZONTAL);
+        setFont(new Font("Arial", Font.BOLD, 32));
+        setHorizontalAlignment(JTextField.RIGHT);
+        setEditable(false);
+        setText("0");
     }
 }
